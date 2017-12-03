@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linExt"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/horo_selector"
+    android:foreground="?selectableItemBackground"
+    android:padding="@dimen/card_padding"
+    >
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        style="@style/MyCardViewStyle">
+            <com.primerexample.gpxviewer.utilities.roboto.RegularTextView
+                android:id="@+id/tvPath"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/path_size"
+                android:textColor="@color/textColor" />
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+
+
