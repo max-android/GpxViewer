@@ -19,8 +19,8 @@
     <string name="font_roboto_medium">fonts/Roboto-Medium.ttf</string>
     <string name="font_roboto_regular">fonts/Roboto-Regular.ttf</string>
 
-    <string name="key">AIzaSyCvw8LuGJ2fhBwtFLrQErnIM1H2QGH8Qvw</string>
+    <string name="key">security</string>
 
-    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCvw8LuGJ2fhBwtFLrQErnIM1H2QGH8Qvw </string>
+   
 
 </resources>
